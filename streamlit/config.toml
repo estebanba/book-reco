@@ -1,0 +1,6 @@
+[server]
+enableCORS = false
+
+[runner]
+# Change to "pip" for pip-based dependency management
+packageManager = "pip"
