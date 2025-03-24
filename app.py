@@ -14,6 +14,8 @@ def load_data(path):
     df = pd.read_csv(path)
     return df
 
+st.set_page_config(page_title="BookReco")
+
 df_books = load_data('data/clean/df_books_clean.csv')
 df_books_cluster = load_data('data/clean/df_books_cluster.csv')
 df_books_scaled = load_data('data/clean/df_books_clean.csv')
